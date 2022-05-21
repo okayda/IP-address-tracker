@@ -1,0 +1,22 @@
+{
+  "name": "ip-address-tracker-master",
+  "version": "1.0.0",
+  "description": "",
+  "default": "app.js",
+  "scripts": {
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okayda/IP-address-tracker.git"
+  },
+  "author": "okayda999",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okayda/IP-address-tracker/issues"
+  },
+  "homepage": "https://github.com/okayda/IP-address-tracker#readme",
+  "devDependencies": {
+    "parcel": "^2.5.0"
+  }
+}
