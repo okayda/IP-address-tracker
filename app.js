@@ -1,5 +1,6 @@
 import * as config from "/config.js";
 import * as render from "/markup.js";
+import iconLocation from "url:/images/icon-location.svg";
 
 class App {
   #map = L.map("map").setView([0, 0], 0);
@@ -26,7 +27,7 @@ class App {
     map.setView([lat, lng], config.MAP_ZOOM);
     L.marker([lat, lng], {
       icon: L.icon({
-        iconUrl: `images/icon-location.svg`,
+        iconUrl: iconLocation,
         iconSize: [35, 40],
       }),
     })
